@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		413CCEE81395090C002D451A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413CCEE71395090C002D451A /* UIKit.framework */; };
+		413CCEEA1395090C002D451A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413CCEE91395090C002D451A /* Foundation.framework */; };
+		413CCEEC1395090C002D451A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413CCEEB1395090C002D451A /* CoreGraphics.framework */; };
+		413CCEF21395090C002D451A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 413CCEF01395090C002D451A /* InfoPlist.strings */; };
+		413CCEF51395090C002D451A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CCEF41395090C002D451A /* main.m */; };
+		413CCEF81395090C002D451A /* RawRESTOAuthAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CCEF71395090C002D451A /* RawRESTOAuthAppDelegate.m */; };
+		413CCEFB1395090C002D451A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413CCEF91395090C002D451A /* MainWindow.xib */; };
+		413CCEFE1395090C002D451A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CCEFD1395090C002D451A /* RootViewController.m */; };
+		413CCF011395090C002D451A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413CCEFF1395090C002D451A /* RootViewController.xib */; };
+		413CCF121395093D002D451A /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CCF081395093D002D451A /* GTMOAuth2ViewControllerTouch.m */; };
+		413CCF131395093D002D451A /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CCF0A1395093D002D451A /* GTMOAuth2Authentication.m */; };
+		413CCF141395093D002D451A /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CCF0C1395093D002D451A /* GTMOAuth2SignIn.m */; };
+		413CCF151395093D002D451A /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CCF0E1395093D002D451A /* GTMHTTPFetcher.m */; };
+		413CCF161395093D002D451A /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413CCF0F1395093D002D451A /* GTMOAuth2ViewTouch.xib */; };
+		413CCF171395093D002D451A /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CCF111395093D002D451A /* SBJSON.m */; };
+		413CCF1B13950959002D451A /* RESTProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CCF1A13950959002D451A /* RESTProcessor.m */; };
+		413CCF1D13950973002D451A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413CCF1C13950973002D451A /* Security.framework */; };
+		413CCF1F1395097B002D451A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413CCF1E1395097B002D451A /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		413CCEE31395090C002D451A /* RawRESTOAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RawRESTOAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		413CCEE71395090C002D451A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		413CCEE91395090C002D451A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		413CCEEB1395090C002D451A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		413CCEEF1395090C002D451A /* RawRESTOAuth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RawRESTOAuth-Info.plist"; sourceTree = "<group>"; };
+		413CCEF11395090C002D451A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		413CCEF31395090C002D451A /* RawRESTOAuth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RawRESTOAuth-Prefix.pch"; sourceTree = "<group>"; };
+		413CCEF41395090C002D451A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		413CCEF61395090C002D451A /* RawRESTOAuthAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RawRESTOAuthAppDelegate.h; sourceTree = "<group>"; };
+		413CCEF71395090C002D451A /* RawRESTOAuthAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RawRESTOAuthAppDelegate.m; sourceTree = "<group>"; };
+		413CCEFA1395090C002D451A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		413CCEFC1395090C002D451A /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		413CCEFD1395090C002D451A /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		413CCF001395090C002D451A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		413CCF071395093D002D451A /* GTMOAuth2ViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2ViewControllerTouch.h; sourceTree = "<group>"; };
+		413CCF081395093D002D451A /* GTMOAuth2ViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2ViewControllerTouch.m; sourceTree = "<group>"; };
+		413CCF091395093D002D451A /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2Authentication.h; sourceTree = "<group>"; };
+		413CCF0A1395093D002D451A /* GTMOAuth2Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2Authentication.m; sourceTree = "<group>"; };
+		413CCF0B1395093D002D451A /* GTMOAuth2SignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2SignIn.h; sourceTree = "<group>"; };
+		413CCF0C1395093D002D451A /* GTMOAuth2SignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2SignIn.m; sourceTree = "<group>"; };
+		413CCF0D1395093D002D451A /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		413CCF0E1395093D002D451A /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		413CCF0F1395093D002D451A /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		413CCF101395093D002D451A /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		413CCF111395093D002D451A /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		413CCF1913950959002D451A /* RESTProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTProcessor.h; sourceTree = "<group>"; };
+		413CCF1A13950959002D451A /* RESTProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESTProcessor.m; sourceTree = "<group>"; };
+		413CCF1C13950973002D451A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		413CCF1E1395097B002D451A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		413CCEE01395090C002D451A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413CCF1F1395097B002D451A /* SystemConfiguration.framework in Frameworks */,
+				413CCF1D13950973002D451A /* Security.framework in Frameworks */,
+				413CCEE81395090C002D451A /* UIKit.framework in Frameworks */,
+				413CCEEA1395090C002D451A /* Foundation.framework in Frameworks */,
+				413CCEEC1395090C002D451A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		413CCED81395090C002D451A = {
+			isa = PBXGroup;
+			children = (
+				413CCEED1395090C002D451A /* RawRESTOAuth */,
+				413CCEE61395090C002D451A /* Frameworks */,
+				413CCEE41395090C002D451A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		413CCEE41395090C002D451A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				413CCEE31395090C002D451A /* RawRESTOAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		413CCEE61395090C002D451A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				413CCF1E1395097B002D451A /* SystemConfiguration.framework */,
+				413CCF1C13950973002D451A /* Security.framework */,
+				413CCEE71395090C002D451A /* UIKit.framework */,
+				413CCEE91395090C002D451A /* Foundation.framework */,
+				413CCEEB1395090C002D451A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		413CCEED1395090C002D451A /* RawRESTOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				413CCF1913950959002D451A /* RESTProcessor.h */,
+				413CCF1A13950959002D451A /* RESTProcessor.m */,
+				413CCEF61395090C002D451A /* RawRESTOAuthAppDelegate.h */,
+				413CCEF71395090C002D451A /* RawRESTOAuthAppDelegate.m */,
+				413CCEF91395090C002D451A /* MainWindow.xib */,
+				413CCEFC1395090C002D451A /* RootViewController.h */,
+				413CCEFD1395090C002D451A /* RootViewController.m */,
+				413CCEFF1395090C002D451A /* RootViewController.xib */,
+				413CCF1813950943002D451A /* OAuth Classes and Resources */,
+				413CCEEE1395090C002D451A /* Supporting Files */,
+			);
+			path = RawRESTOAuth;
+			sourceTree = "<group>";
+		};
+		413CCEEE1395090C002D451A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				413CCEEF1395090C002D451A /* RawRESTOAuth-Info.plist */,
+				413CCEF01395090C002D451A /* InfoPlist.strings */,
+				413CCEF31395090C002D451A /* RawRESTOAuth-Prefix.pch */,
+				413CCEF41395090C002D451A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		413CCF1813950943002D451A /* OAuth Classes and Resources */ = {
+			isa = PBXGroup;
+			children = (
+				413CCF071395093D002D451A /* GTMOAuth2ViewControllerTouch.h */,
+				413CCF081395093D002D451A /* GTMOAuth2ViewControllerTouch.m */,
+				413CCF091395093D002D451A /* GTMOAuth2Authentication.h */,
+				413CCF0A1395093D002D451A /* GTMOAuth2Authentication.m */,
+				413CCF0B1395093D002D451A /* GTMOAuth2SignIn.h */,
+				413CCF0C1395093D002D451A /* GTMOAuth2SignIn.m */,
+				413CCF0D1395093D002D451A /* GTMHTTPFetcher.h */,
+				413CCF0E1395093D002D451A /* GTMHTTPFetcher.m */,
+				413CCF0F1395093D002D451A /* GTMOAuth2ViewTouch.xib */,
+				413CCF101395093D002D451A /* SBJSON.h */,
+				413CCF111395093D002D451A /* SBJSON.m */,
+			);
+			name = "OAuth Classes and Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		413CCEE21395090C002D451A /* RawRESTOAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413CCF041395090C002D451A /* Build configuration list for PBXNativeTarget "RawRESTOAuth" */;
+			buildPhases = (
+				413CCEDF1395090C002D451A /* Sources */,
+				413CCEE01395090C002D451A /* Frameworks */,
+				413CCEE11395090C002D451A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RawRESTOAuth;
+			productName = RawRESTOAuth;
+			productReference = 413CCEE31395090C002D451A /* RawRESTOAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		413CCEDA1395090C002D451A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 413CCEDD1395090C002D451A /* Build configuration list for PBXProject "RawRESTOAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 413CCED81395090C002D451A;
+			productRefGroup = 413CCEE41395090C002D451A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				413CCEE21395090C002D451A /* RawRESTOAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		413CCEE11395090C002D451A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413CCEF21395090C002D451A /* InfoPlist.strings in Resources */,
+				413CCEFB1395090C002D451A /* MainWindow.xib in Resources */,
+				413CCF011395090C002D451A /* RootViewController.xib in Resources */,
+				413CCF161395093D002D451A /* GTMOAuth2ViewTouch.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		413CCEDF1395090C002D451A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413CCEF51395090C002D451A /* main.m in Sources */,
+				413CCEF81395090C002D451A /* RawRESTOAuthAppDelegate.m in Sources */,
+				413CCEFE1395090C002D451A /* RootViewController.m in Sources */,
+				413CCF121395093D002D451A /* GTMOAuth2ViewControllerTouch.m in Sources */,
+				413CCF131395093D002D451A /* GTMOAuth2Authentication.m in Sources */,
+				413CCF141395093D002D451A /* GTMOAuth2SignIn.m in Sources */,
+				413CCF151395093D002D451A /* GTMHTTPFetcher.m in Sources */,
+				413CCF171395093D002D451A /* SBJSON.m in Sources */,
+				413CCF1B13950959002D451A /* RESTProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		413CCEF01395090C002D451A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				413CCEF11395090C002D451A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		413CCEF91395090C002D451A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				413CCEFA1395090C002D451A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		413CCEFF1395090C002D451A /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				413CCF001395090C002D451A /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		413CCF021395090C002D451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		413CCF031395090C002D451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		413CCF051395090C002D451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RawRESTOAuth/RawRESTOAuth-Prefix.pch";
+				INFOPLIST_FILE = "RawRESTOAuth/RawRESTOAuth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		413CCF061395090C002D451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RawRESTOAuth/RawRESTOAuth-Prefix.pch";
+				INFOPLIST_FILE = "RawRESTOAuth/RawRESTOAuth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		413CCEDD1395090C002D451A /* Build configuration list for PBXProject "RawRESTOAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413CCF021395090C002D451A /* Debug */,
+				413CCF031395090C002D451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		413CCF041395090C002D451A /* Build configuration list for PBXNativeTarget "RawRESTOAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413CCF051395090C002D451A /* Debug */,
+				413CCF061395090C002D451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 413CCEDA1395090C002D451A /* Project object */;
+}
